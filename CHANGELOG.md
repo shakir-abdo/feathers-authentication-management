@@ -2,7 +2,123 @@
 
 ## [Unreleased](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/HEAD)
 
-[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v3.2.0...HEAD)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v5.1.0...HEAD)
+
+**Merged pull requests:**
+
+- chore\(deps-dev\): bump vite from 4.5.2 to 4.5.3 [\#229](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/229) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore\(deps-dev\): bump braces from 3.0.2 to 3.0.3 [\#228](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/228) ([dependabot[bot]](https://github.com/apps/dependabot))
+- feat: add skipPasswordHash option [\#226](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/226) ([jd1378](https://github.com/jd1378))
+- chore\(deps-dev\): bump vite from 4.5.0 to 4.5.2 [\#223](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/223) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v5.1.0](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v5.1.0) (2024-07-08)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v5.0.1...v5.1.0)
+
+**Closed issues:**
+
+- Provide a way to let resolvers hash the password [\#225](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/225)
+- ensureObjPropsValid throws when an object with more props is passed in [\#224](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/224)
+
+## [v5.0.1](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v5.0.1) (2023-11-04)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v5.0.0...v5.0.1)
+
+**Closed issues:**
+
+- action "resetPwdLong" does result in error "dateOrNumber.getTime\(\) is not a function" [\#219](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/219)
+- feathers 5 BadRequest: validation failed [\#213](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/213)
+- Does auth-management work with feathers v5? [\#211](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/211)
+
+**Merged pull requests:**
+
+- chore: update dependencies [\#221](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/221) ([fratzinger](https://github.com/fratzinger))
+- fix: dateOrNumberToNumber with BigInt String & ISOString [\#220](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/220) ([fratzinger](https://github.com/fratzinger))
+- Update required fields list [\#217](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/217) ([closertotheend](https://github.com/closertotheend))
+
+## [v5.0.0](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v5.0.0) (2023-09-20)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v5.0.0-pre.0...v5.0.0)
+
+**Closed issues:**
+
+- \[dove\] TypeScript issue when using hook addVerification [\#195](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/195)
+
+**Merged pull requests:**
+
+- chore: update dependencies & replace feathers-memory with @feathersjs… [\#214](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/214) ([fratzinger](https://github.com/fratzinger))
+- Update Library Dependencies and Code for Feathers 5 \(Dove\) [\#210](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/210) ([pdfowler](https://github.com/pdfowler))
+- Update config.ts [\#209](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/209) ([bitflower](https://github.com/bitflower))
+- Update getting-started.md [\#208](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/208) ([bitflower](https://github.com/bitflower))
+- Update service-calls.md [\#207](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/207) ([viapek](https://github.com/viapek))
+- Bump json5 from 1.0.1 to 1.0.2 [\#201](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/201) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump engine.io from 3.6.0 to 3.6.1 [\#199](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/199) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump socket.io-parser from 3.3.2 to 3.3.3 [\#198](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/198) ([dependabot[bot]](https://github.com/apps/dependabot))
+- ci: also check compile step [\#194](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/194) ([fratzinger](https://github.com/fratzinger))
+
+## [v5.0.0-pre.0](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v5.0.0-pre.0) (2022-10-13)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v4.0.2...v5.0.0-pre.0)
+
+**Closed issues:**
+
+- Error when using with typescript app [\#192](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/192)
+
+## [v4.0.2](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v4.0.2) (2022-09-30)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v4.0.1...v4.0.2)
+
+**Closed issues:**
+
+- SyntaxError: Cannot use import statement outside a module [\#191](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/191)
+
+**Merged pull requests:**
+
+- chore: add tsconfig commonjs [\#193](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/193) ([fratzinger](https://github.com/fratzinger))
+
+## [v4.0.1](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v4.0.1) (2022-09-22)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v4.0.0...v4.0.1)
+
+**Closed issues:**
+
+- Update docs [\#138](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/138)
+
+**Merged pull requests:**
+
+- chore: check updates for examples [\#190](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/190) ([fratzinger](https://github.com/fratzinger))
+- chore: update dependencies [\#188](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/188) ([fratzinger](https://github.com/fratzinger))
+- docs: fix heading levels [\#186](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/186) ([fratzinger](https://github.com/fratzinger))
+- Bump moment-timezone from 0.5.33 to 0.5.37 in /examples/js [\#185](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/185) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump vite from 2.9.12 to 2.9.15 [\#184](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/184) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump undici from 5.8.0 to 5.9.1 [\#183](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/183) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [v4.0.0](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v4.0.0) (2022-07-28)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v4.0.0-pre.2...v4.0.0)
+
+**Closed issues:**
+
+- verifyHooks.addVerification  erroring out [\#157](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/157)
+- Rework [\#144](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/144)
+
+**Merged pull requests:**
+
+- Typescript refactoring, seperate services, custom methods and vitepress docs [\#164](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/164) ([fratzinger](https://github.com/fratzinger))
+
+## [v4.0.0-pre.2](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v4.0.0-pre.2) (2022-06-19)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v3.2.0...v4.0.0-pre.2)
+
+## [v3.2.0](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v3.2.0) (2022-05-16)
+
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v4.0.0-pre.1...v3.2.0)
+
+**Closed issues:**
+
+- 4.0.0-pre.1 has un declared passport-local dependency [\#173](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/173)
+- skipIsVerifiedCheck  doesn't call custom notifier. [\#172](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/172)
+- identityChange doesn't verify the user's password [\#171](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/171)
 
 **Merged pull requests:**
 
@@ -14,16 +130,6 @@
 - chore: move travis to github actions [\#162](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/162) ([fratzinger](https://github.com/fratzinger))
 - Bump y18n from 4.0.0 to 4.0.1 [\#161](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/161) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update docs.md [\#160](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/160) ([re1ro](https://github.com/re1ro))
-
-## [v3.2.0](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v3.2.0) (2022-05-16)
-
-[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-authentication-management/compare/v4.0.0-pre.1...v3.2.0)
-
-**Closed issues:**
-
-- 4.0.0-pre.1 has un declared passport-local dependency [\#173](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/173)
-- skipIsVerifiedCheck  doesn't call custom notifier. [\#172](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/172)
-- identityChange doesn't verify the user's password [\#171](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/171)
 
 ## [v4.0.0-pre.1](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v4.0.0-pre.1) (2022-01-08)
 
@@ -98,7 +204,7 @@
 - v4 support [\#124](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/124)
 - pwReset should not be case sensitive [\#121](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/121)
 - Notifier wont work with other opitions like 'identifyUserProps' [\#120](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/120)
-- Distinguishing between identityChange and initial vericication in notifier [\#119](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/119)
+- Distinguishing between identityChange and initial verification in notifier [\#119](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/119)
 - Cannot read property 'id' of undefined [\#117](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/117)
 - Discussing enhancements and changes for V3 rewrite [\#114](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/114)
 - Create TypeScript typings for this package [\#112](https://github.com/feathersjs-ecosystem/feathers-authentication-management/issues/112)
@@ -132,7 +238,7 @@
 - Remove outdated link. [\#123](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/123) ([bartduisters](https://github.com/bartduisters))
 - chore\(\): update feathers libs [\#122](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/122) ([bitflower](https://github.com/bitflower))
 - Update walkthrough on medium [\#118](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/118) ([morenoh149](https://github.com/morenoh149))
-- hashPassword workaround verbage [\#113](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/113) ([rayfoss](https://github.com/rayfoss))
+- hashPassword workaround verbage [\#113](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/113) ([FossPrime](https://github.com/FossPrime))
 
 ## [v2.0.1](https://github.com/feathersjs-ecosystem/feathers-authentication-management/tree/v2.0.1) (2018-07-09)
 
@@ -225,7 +331,7 @@
 **Implemented enhancements:**
 
 - Make randomDigits use crypto.randomBytes [\#63](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/63) ([micaksica2](https://github.com/micaksica2))
-- Allow hook.addVerification on Patch and Update hooks [\#62](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/62) ([amaurym](https://github.com/amaurym))
+- Allow hook.addVerification on Patch and Update hooks [\#62](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/62) ([amaury1093](https://github.com/amaury1093))
 - Add skipIsVerifiedCheck option for sendResetPwd [\#61](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/61) ([marbemac](https://github.com/marbemac))
 - Updated URL to docs in doc.feathersjs.com [\#57](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/57) ([eddyystop](https://github.com/eddyystop))
 - fix docs [\#56](https://github.com/feathersjs-ecosystem/feathers-authentication-management/pull/56) ([sylvainlap](https://github.com/sylvainlap))

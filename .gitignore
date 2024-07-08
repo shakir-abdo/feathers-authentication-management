@@ -32,10 +32,12 @@ node_modules
 .lock-wscript
 
 # The compiled/babelified modules
-lib/
+dist/
 
 ## editor
 .idea/
 
-.vscode/
+#.vscode/
 .prettierrc
+
+docs/.vitepress/cache
